@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.example.plugin
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.example.plugin.Activator
+Export-Package: com.example.plugin
+Require-Bundle: org.eclipse.ui,
+    org.eclipse.osgi
+Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=17))"

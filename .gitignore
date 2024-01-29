@@ -1,0 +1,8 @@
+pom.tycho
+.settings/
+target/
+bin/
+*polyglot*
+.project
+.classpath
+javaConfig.json
