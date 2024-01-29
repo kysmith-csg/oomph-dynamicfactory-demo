@@ -1,8 +1,11 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-SymbolicName: com.example.plugin
+Automatic-Module-Name: com.example.plugin
+Bundle-SymbolicName: com.example.plugin;singleton:=true
+Bundle-Vendor: Kyle Smith
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.example.plugin.Activator
+Bundle-Name: Example Plugin
 Export-Package: com.example.plugin
 Require-Bundle: org.eclipse.ui,
     org.eclipse.osgi
